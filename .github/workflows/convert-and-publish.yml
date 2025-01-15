@@ -11,12 +11,12 @@ jobs:
 
     steps:
     - name: Checkout repository
-      uses: actions/checkout@v2
+      uses: actions/checkout@v3
 
     - name: Convert MD to HTML
       run: |
         mkdir -p html
-        for file in $(find . -name '*.md'); do
+        for file in $(find . -type f -name '*.md'); do
           filename=$(basename "$file" .md)
           htmlname=$(echo "$filename" | tr -c '[:alnum:]' '-' | tr -s '-').html
           pandoc "$file" -o "./html/$htmlname"
@@ -24,16 +24,18 @@ jobs:
 
     - name: Add basic HTML structure
       run: |
-        for file in $(find ./html -name '*.html'); do
-          echo '<!DOCTYPE html>
+        for file in $(find ./html -type f -name '*.html'); do
+          basename=$(basename "$file" .html)
+          cat <<EOF > temp.html
+<!DOCTYPE html>
 <html>
 <head>
-  <title>'"$(basename "$file" .html)"'</title>
+  <title>$basename</title>
   <style>
-    body { font-family: Arial, sans-serif; }
-    .sidebar { width: 200px; float: left; }
-    .content { margin-left: 220px; }
-    footer { margin-top: 20px; }
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; }
+    .sidebar { width: 200px; float: left; background: #f4f4f4; padding: 10px; height: 100vh; }
+    .content { margin-left: 220px; padding: 20px; }
+    footer { margin-top: 20px; text-align: center; background: #f4f4f4; padding: 10px; }
   </style>
 </head>
 <body>
@@ -42,14 +44,17 @@ jobs:
     <p>Links or other content</p>
   </div>
   <div class="content">
-    <h1>'"$(basename "$file" .html)"'</h1>' > temp.html
+    <h1>$basename</h1>
+EOF
           cat "$file" >> temp.html
-          echo '</div>
+          cat <<EOF >> temp.html
+  </div>
   <footer>
     <p>Footer content</p>
   </footer>
 </body>
-</html>' >> temp.html
+</html>
+EOF
           mv temp.html "$file"
         done
 
@@ -58,5 +63,9 @@ jobs:
         git config --global user.name 'github-actions'
         git config --global user.email 'github-actions@github.com'
         git add .
-        git commit -m 'Convert MD files to HTML and publish'
-        git push
+        if ! git diff-index --quiet HEAD; then
+          git commit -m 'Convert MD files to HTML and publish'
+          git push
+        else
+          echo "No changes to commit."
+        fi
