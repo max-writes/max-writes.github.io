@@ -23,7 +23,7 @@ jobs:
         done
 
     - name: Add basic HTML structure
-      run: ./.github/scripts/add_html_structure.sh
+      run: bash ./.github/scripts/add_html_structure.sh
 
     - name: Commit and push changes
       run: |
