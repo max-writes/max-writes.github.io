@@ -5,7 +5,7 @@ tags:
   - topic_information-management
 ---
 
-#topic/obsidian #topic/information-management 
+#topic/obsidian #topic/information-management
 
 # Notes
 
