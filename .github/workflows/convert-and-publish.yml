@@ -15,16 +15,17 @@ jobs:
 
     - name: Convert MD to HTML
       run: |
+        mkdir -p html
         for file in $(find . -name '*.md'); do
           filename=$(basename "$file" .md)
           htmlname=$(echo "$filename" | tr -c '[:alnum:]' '-' | tr -s '-').html
           pandoc "$file" -o "./html/$htmlname"
         done
 
-  - name: Add basic HTML structure
-  run: |
-    for file in $(find ./html -name '*.html'); do
-      echo '<!DOCTYPE html>
+    - name: Add basic HTML structure
+      run: |
+        for file in $(find ./html -name '*.html'); do
+          echo '<!DOCTYPE html>
 <html>
 <head>
   <title>'"$(basename "$file" .html)"'</title>
@@ -42,15 +43,15 @@ jobs:
   </div>
   <div class="content">
     <h1>'"$(basename "$file" .html)"'</h1>' > temp.html
-      cat "$file" >> temp.html
-      echo '</div>
+          cat "$file" >> temp.html
+          echo '</div>
   <footer>
     <p>Footer content</p>
   </footer>
 </body>
 </html>' >> temp.html
-      mv temp.html "$file"
-    done
+          mv temp.html "$file"
+        done
 
     - name: Commit and push changes
       run: |
