@@ -8,7 +8,6 @@ http://nownownow.com
 #### January 13, 2025
 I spent a lot of tonight trying to figure out how to set up GitHub pages and publish from obsidian. Well anyway, I got through setting up GitHub pages!
 
-
 Listening to: Animal Crossing soundtrack music
 
 What I've been doing with websites:
