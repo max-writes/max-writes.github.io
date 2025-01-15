@@ -21,13 +21,13 @@ jobs:
           pandoc "$file" -o "./html/$htmlname"
         done
 
-    - name: Add basic HTML structure
-      run: |
-        for file in $(find ./html -name '*.html'); do
-          echo '<!DOCTYPE html>
+  - name: Add basic HTML structure
+  run: |
+    for file in $(find ./html -name '*.html'); do
+      echo '<!DOCTYPE html>
 <html>
 <head>
-  <title>'$(basename "$file" .html)'</title>
+  <title>'"$(basename "$file" .html)"'</title>
   <style>
     body { font-family: Arial, sans-serif; }
     .sidebar { width: 200px; float: left; }
@@ -41,16 +41,16 @@ jobs:
     <p>Links or other content</p>
   </div>
   <div class="content">
-    <h1>'$(basename "$file" .html)'</h1>' > temp.html
-          cat "$file" >> temp.html
-          echo '</div>
+    <h1>'"$(basename "$file" .html)"'</h1>' > temp.html
+      cat "$file" >> temp.html
+      echo '</div>
   <footer>
     <p>Footer content</p>
   </footer>
 </body>
 </html>' >> temp.html
-          mv temp.html "$file"
-        done
+      mv temp.html "$file"
+    done
 
     - name: Commit and push changes
       run: |
