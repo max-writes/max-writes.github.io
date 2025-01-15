@@ -1,4 +1,4 @@
-name: Convert and Publish Obsidian MD Files by Max and Copilot
+name: Convert and Publish Obsidian MD Files
 
 on:
   push:
