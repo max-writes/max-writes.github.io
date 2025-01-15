@@ -1,0 +1,61 @@
+name: Convert and Publish Obsidian MD Files by Max and Copilot
+
+on:
+  push:
+    paths:
+      - '**/*.md'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Convert MD to HTML
+      run: |
+        for file in $(find . -name '*.md'); do
+          filename=$(basename "$file" .md)
+          htmlname=$(echo "$filename" | tr -c '[:alnum:]' '-' | tr -s '-').html
+          pandoc "$file" -o "./html/$htmlname"
+        done
+
+    - name: Add basic HTML structure
+      run: |
+        for file in $(find ./html -name '*.html'); do
+          echo '<!DOCTYPE html>
+<html>
+<head>
+  <title>'$(basename "$file" .html)'</title>
+  <style>
+    body { font-family: Arial, sans-serif; }
+    .sidebar { width: 200px; float: left; }
+    .content { margin-left: 220px; }
+    footer { margin-top: 20px; }
+  </style>
+</head>
+<body>
+  <div class="sidebar">
+    <h2>Sidebar</h2>
+    <p>Links or other content</p>
+  </div>
+  <div class="content">
+    <h1>'$(basename "$file" .html)'</h1>' > temp.html
+          cat "$file" >> temp.html
+          echo '</div>
+  <footer>
+    <p>Footer content</p>
+  </footer>
+</body>
+</html>' >> temp.html
+          mv temp.html "$file"
+        done
+
+    - name: Commit and push changes
+      run: |
+        git config --global user.name 'github-actions'
+        git config --global user.email 'github-actions@github.com'
+        git add .
+        git commit -m 'Convert MD files to HTML and publish'
+        git push
