@@ -26,7 +26,7 @@ jobs:
       run: |
         for file in $(find ./html -type f -name '*.html'); do
           basename=$(basename "$file" .html)
-          cat <<EOF > temp.html
+          cat <<'EOF' > temp.html
 <!DOCTYPE html>
 <html>
 <head>
@@ -47,7 +47,7 @@ jobs:
     <h1>$basename</h1>
 EOF
           cat "$file" >> temp.html
-          cat <<EOF >> temp.html
+          cat <<'EOF' >> temp.html
   </div>
   <footer>
     <p>Footer content</p>
