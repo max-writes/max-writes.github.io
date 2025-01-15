@@ -3,7 +3,7 @@ share: true
 ---
   
   
-This is my Now archive from when I kept my site on WordPress.  
+This is my Now archive from when I kept my site on WordPress. 
   
 [nownownow.com](http://nownownow.com)  
   
