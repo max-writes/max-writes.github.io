@@ -34,10 +34,9 @@ appealing design
 
 digital garden - space to cultivate thoughts and knowledge in a flexible, iterative manner (rather than strictly structured)
 
-paths = structured paths through content
-lawns = patches of related things
-
 Ideas:
+* paths = structured paths through content
+* lawns = patches of related things
 * notes from sources (books, podcast episodes, articles, etc)
 	* 1 per book/thing, write quotes & thoughts
 	* birds & butterflies - thoughts from external sources
