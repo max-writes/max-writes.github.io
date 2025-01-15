@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e  # Exit on errors
+set -x  # Print commands as they are executed
 mkdir -p html
 for file in $(find ./html -type f -name '*.html'); do
   basename=$(basename "$file" .html)
