@@ -32,7 +32,7 @@ export const defaultContentPageLayout: PageLayout = {
         "Home": "/",
       }
     }),
-    Component.RecentNotes({ title: "Recent Thoughts 🖋️", limit: 3 }),
+    Component.RecentNotes({ title: "Recent Thoughts 🖋️", limit: 6 }),
     Component.Graph(),
   ],
   afterBody: [

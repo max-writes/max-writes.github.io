@@ -4,7 +4,7 @@ draft: false
 tags: life-systems, knowledge
 ---
 
-As this system evolves I want to capture how I am intaking knowledge. Also see [Journal Systems.md]
+As this system evolves I want to capture how I am intaking knowledge. Also see [[journal-systems.md]]
 
 ## After trainings, courses, or other large investments into knowledge
 
