@@ -8,5 +8,4 @@ draft: false
  
  # Max Writes
  
- ## Maybe if I put content on this page it will work.
- 
+ ## Hooray it worked! This will become a digital garden and tech thoughts repository.
