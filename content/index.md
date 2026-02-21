@@ -10,4 +10,4 @@ draft: false
  
  ## Welcome! This will become a digital garden and tech thoughts repository.
 
- February 2026
+ Began in February 2026
