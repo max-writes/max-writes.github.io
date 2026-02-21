@@ -32,7 +32,6 @@ export const defaultContentPageLayout: PageLayout = {
         "Home": "/",
       }
     }),
-    Component.DesktopOnly(Component.TableOfContents()), // renamed to contents in CSS
     Component.RecentNotes({ title: "Recent Thoughts 🖋️", limit: 3 }),
     Component.Graph(),
   ],
@@ -59,7 +58,6 @@ export const defaultListPageLayout: PageLayout = {
         "Home": "/",
       }
     }),
-    Component.DesktopOnly(Component.TableOfContents()), // renamed to contents in CSS
     Component.RecentNotes({ title: "Recent Thoughts 🖋️", limit: 3 }),
     Component.Graph(),
     Component.Backlinks(),
