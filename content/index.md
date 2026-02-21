@@ -8,4 +8,4 @@ draft: false
  
  # Max Writes
  
- ## Hooray it worked! This will become a digital garden and tech thoughts repository.
+ ## Welcome! This will become a digital garden and tech thoughts repository.
