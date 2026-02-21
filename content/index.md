@@ -9,3 +9,5 @@ draft: false
  # Max Writes
  
  ## Welcome! This will become a digital garden and tech thoughts repository.
+
+ February 2026
