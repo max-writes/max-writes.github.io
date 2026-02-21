@@ -1,3 +1,4 @@
+import DefaultLayout from "./quartz/layouts/default"
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
 
@@ -8,8 +9,8 @@ export const sharedPageComponents: SharedLayout = {
   afterBody: [],
   footer: Component.Footer({
     links: {
-      GitHub: "https://github.com/jackyzha0/quartz",
-      "Discord Community": "https://discord.gg/cRFFHYye7t",
+      
+      
     },
   }),
 }
@@ -17,52 +18,54 @@ export const sharedPageComponents: SharedLayout = {
 // components for pages that display a single page (e.g. a single note)
 export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
-    Component.ConditionalRender({
-      component: Component.Breadcrumbs(),
-      condition: (page) => page.fileData.slug !== "index",
-    }),
-    Component.ArticleTitle(),
+    Component.ArticleTitle(), // H1
     Component.ContentMeta(),
-    Component.TagList(),
   ],
   left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-        { Component: Component.ReaderMode() },
-      ],
-    }),
-    Component.Explorer(),
+// empty 
   ],
   right: [
+    Component.Navigation({
+      links: {
+        "Now": "/now",
+        "About": "/tags/who-is-max",
+        "Home": "/",
+      }
+    }),
+    Component.DesktopOnly(Component.TableOfContents()), // renamed to contents in CSS
+    Component.RecentNotes({ title: "Recent Thoughts 🖋️", limit: 3 }),
     Component.Graph(),
-    Component.DesktopOnly(Component.TableOfContents()),
-    Component.Backlinks(),
+  ],
+  afterBody: [
+     Component.Breadcrumbs(),
+     Component.StickyNote(), 
   ],
 }
 
 // components for pages that display lists of pages  (e.g. tags or folders)
 export const defaultListPageLayout: PageLayout = {
-  beforeBody: [Component.Breadcrumbs(), Component.ArticleTitle(), Component.ContentMeta()],
-  left: [
-    Component.PageTitle(),
-    Component.MobileOnly(Component.Spacer()),
-    Component.Flex({
-      components: [
-        {
-          Component: Component.Search(),
-          grow: true,
-        },
-        { Component: Component.Darkmode() },
-      ],
-    }),
-    Component.Explorer(),
+   beforeBody: [
+    Component.ArticleTitle(), // H1
+    Component.ContentMeta(),
   ],
-  right: [],
+  left: [
+// empty 
+  ],
+  right: [
+    Component.Navigation({
+      links: {
+        "Now": "/now",
+        "About": "/tags/who-is-max",
+        "Home": "/",
+      }
+    }),
+    Component.DesktopOnly(Component.TableOfContents()), // renamed to contents in CSS
+    Component.RecentNotes({ title: "Recent Thoughts 🖋️", limit: 3 }),
+    Component.Graph(),
+    Component.Backlinks(),
+  ],
+    afterBody: [
+     Component.Breadcrumbs(),
+     Component.StickyNote(), 
+  ],
 }

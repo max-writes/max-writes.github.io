@@ -4,10 +4,6 @@ description: Digital garden and knowledge library
 draft: false
 ---
 
+A slow archive of things I notice and think about.
 
- 
- # Max Writes
- 
- ## Welcome! This will become a digital garden and tech thoughts repository.
-
- Began in February 2026
+This is in progress.

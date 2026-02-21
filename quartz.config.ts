@@ -23,35 +23,36 @@ const config: QuartzConfig = {
       fontOrigin: "googleFonts",
       cdnCaching: true,
       typography: {
-        header: "Schibsted Grotesk",
-        body: "Source Sans Pro",
+        header: "IBM Plex Mono",
+        body: "Georgia",
         code: "IBM Plex Mono",
       },
       colors: {
-        lightMode: {
-          light: "#faf8f8",
-          lightgray: "#e5e5e5",
-          gray: "#b8b8b8",
-          darkgray: "#4e4e4e",
-          dark: "#2b2b2b",
-          secondary: "#284b63",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#fff23688",
-        },
-        darkMode: {
-          light: "#161618",
-          lightgray: "#393639",
-          gray: "#646464",
-          darkgray: "#d4d4d4",
-          dark: "#ebebec",
-          secondary: "#7b97aa",
-          tertiary: "#84a59d",
-          highlight: "rgba(143, 159, 169, 0.15)",
-          textHighlight: "#b3aa0288",
-        },
-      },
-    },
+  lightMode: {
+    light: "#f6f3ea",          // Page background
+    lightgray: "#e7e1d6",      // Borders/Bases
+    gray: "#b9b1a4",           // Graph links/Metadata
+    darkgray: "#5c564f",       // Body text
+    dark: "#1c1c1c",           // Headers
+    secondary: "#c26d2e",      // Links (Terracotta)
+    tertiary: "#6f5a8a",       // Hover states (Muted Purple)
+    highlight: "rgba(79,122,92,0.15)", // Internal link background
+    textHighlight: "#c26d2e33",
+  },
+  darkMode: {
+    light: "#1b1a19",
+    lightgray: "#2a2826",
+    gray: "#4a4642",
+    darkgray: "#c9c3b8",
+    dark: "#f3efe6",
+    secondary: "#e28a44",
+    tertiary: "#9c86bd",
+    highlight: "rgba(120,170,130,0.18)",
+    textHighlight: "#e28a4444",
+  },
+},
+},
+
   },
   plugins: {
     transformers: [
