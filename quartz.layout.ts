@@ -27,7 +27,7 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.Navigation({
       links: {
-        "Now": "/now",
+        "Now": "/Now",
         "About": "/tags/who-is-max",
         "Home": "/",
       }
@@ -53,7 +53,7 @@ export const defaultListPageLayout: PageLayout = {
   right: [
     Component.Navigation({
       links: {
-        "Now": "/now",
+        "Now": "/Now",
         "About": "/tags/who-is-max",
         "Home": "/",
       }
