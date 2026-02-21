@@ -6,4 +6,4 @@ draft: false
 
 A slow archive of things I notice and think about.
 
-This is in progress.
+**This is in progress and not fully built/styled.**

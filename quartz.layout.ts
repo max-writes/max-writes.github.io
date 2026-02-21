@@ -10,7 +10,7 @@ export const sharedPageComponents: SharedLayout = {
   footer: Component.Footer({
     links: {
       
-      
+      "all content": "/all",
     },
   }),
 }
@@ -20,6 +20,7 @@ export const defaultContentPageLayout: PageLayout = {
   beforeBody: [
     Component.ArticleTitle(), // H1
     Component.ContentMeta(),
+    Component.ContentList(),
   ],
   left: [
 // empty 
@@ -32,12 +33,12 @@ export const defaultContentPageLayout: PageLayout = {
         "Home": "/",
       }
     }),
-    Component.RecentNotes({ title: "Recent Thoughts 🖋️", limit: 6 }),
+    Component.RecentNotes({ title: "Recent Thoughts 🖋️", limit: 3 }),
     Component.Graph(),
   ],
   afterBody: [
      Component.Breadcrumbs(),
-     Component.StickyNote(), 
+     
   ],
 }
 
@@ -58,7 +59,7 @@ export const defaultListPageLayout: PageLayout = {
         "Home": "/",
       }
     }),
-    Component.RecentNotes({ title: "Recent Thoughts 🖋️", limit: 3 }),
+    Component.RecentNotes({ title: "Recent Thoughts 🖋️", limit: 6 }),
     Component.Graph(),
     Component.Backlinks(),
   ],

@@ -4,7 +4,7 @@ draft: false
 tags: knowledge
 ---
 
-I caught myself earlier sitting on the couch with my cat thinking about Antarctic mountain ranges, something I knew basically nothing about before a few days ago. I've been reading Of Maps and Men, a book about Antarctica which I picked up in my journey to read more about the globe and continents that I don't know anything about, and the author talks about their journey through Antarctica with a group of scientists and explorers.
+I caught myself earlier sitting on the couch with my cat thinking about [[horizons.md|Antarctic]]  mountain ranges, something I knew basically nothing about before a few days ago. I've been reading Of Maps and Men, a book about Antarctica which I picked up in my journey to read more about the globe and continents that I don't know anything about, and the author talks about their journey through Antarctica with a group of scientists and explorers.
 
 The thing is, keeping this knowledge management thing always makes me feel like I'm a little behind. Writing it down and capturing the knowledge is never as fast as learning. I don't expect it to be, and I don't want to imply that this is something that's causing me distress, but it is something that I think about.
 

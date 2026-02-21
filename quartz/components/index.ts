@@ -23,7 +23,10 @@ import Breadcrumbs from "./Breadcrumbs"
 import Comments from "./Comments"
 import Flex from "./Flex"
 import ConditionalRender from "./ConditionalRender"
+
 import StickyNote from "./StickyNote"
+
+import ContentList from "./ContentList"
 
 export { default as Navigation } from "./Navigation"
 
@@ -54,4 +57,5 @@ export {
   Flex,
   ConditionalRender,
   StickyNote,
+  ContentList,
 }

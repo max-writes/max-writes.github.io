@@ -14,7 +14,7 @@ However, in retrospect and from an archival perspective, a tiny bit annoying! In
 
 Getting started with some best guesses.
 
-Written journals timeline
+## Written journals timeline
 
 - Structured diaries (books made for kids to journal)
 - School journals (I had a few teachers who had us journal in class)
@@ -29,7 +29,7 @@ Written journals timeline
 - Seasonal journals
 - Knowledge / KM journal
 
-Digital journals timeline
+## Digital journals timeline
 
 - TXT / DOC files on my desktop (folders by date for journaling thoughts)
 - Websites (as expression - lots of writing)
