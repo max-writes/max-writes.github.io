@@ -1,25 +1,95 @@
-/* 1. VARIABLES & FONTS */
+/* ================================================================
+   MAX WRITES — custom.scss
+   Quartz v4 overrides for notebook-paper layout
+   ================================================================ */
+
+
+/* ----------------------------------------------------------------
+   1. VARIABLES & FONTS
+   ---------------------------------------------------------------- */
 :root {
-  --font-body: "Georgia", serif;
-  --font-header: "Dancing Script", cursive;
-  --font-typewriter: "Courier New", Courier, monospace; 
-  --font-sticky: "Permanent Marker", cursive;
-  
-  --ink-color: #1a365d;
-  --paper-color: #f6f3ea;      
-  --margin-red: rgba(194, 109, 46, 0.2); 
-  --line-blue: #e7e1d6;        
+  --font-body:        "Georgia", serif;
+  --font-header:      "Dancing Script", cursive;
+  --font-typewriter:  "Courier New", Courier, monospace;
+  --font-sticky:      "Permanent Marker", cursive;
+
+  --ink-color:        #1a365d;
+  --paper-color:      #f6f3ea;
+  --margin-red:       rgba(194, 109, 46, 0.2);
+  --line-blue:        #e7e1d6;
 }
 
-/* 2. HIDE DEFAULTS */
-.darkmode, .explorer, .page-title, #quartz-body > .sidebar.left {
+
+/* ----------------------------------------------------------------
+   2. HIDE QUARTZ DEFAULTS WE DON'T WANT
+   ---------------------------------------------------------------- */
+.darkmode,
+.explorer,
+.page-title,
+#quartz-body > .sidebar.left {
   display: none !important;
 }
 
-/* 3. DESKTOP COLUMN SYSTEM - FORCED WIDE */
-@media all and (min-width: 1200px) {
+
+/* ----------------------------------------------------------------
+   3. GLOBAL BASE STYLES
+   ---------------------------------------------------------------- */
+html, body {
+  overflow-x: hidden;
+}
+
+body {
+  background-color: var(--paper-color);
+  font-family: var(--font-body);
+  color: #5c564f;
+}
+
+h1 {
+  font-family: var(--font-header) !important;
+  color: var(--ink-color);
+  font-size: 3.5rem;
+}
+
+/* Typewriter-style subheaders */
+h2, h3, h4, .toc-header, .navigation {
+  font-family: var(--font-typewriter) !important;
+  letter-spacing: 1px;
+  font-size: 1.1rem;
+  color: #5c564f;
+}
+
+a {
+  font-family: var(--font-body);
+  color: var(--secondary);
+}
+
+
+/* ----------------------------------------------------------------
+   4. NOTEBOOK PAPER — shared mixin values
+   Applied to .center on both mobile and desktop
+   ---------------------------------------------------------------- */
+.center {
+  background-color: white;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
+  border: 1px solid var(--line-blue);
+  z-index: 1;
+
+  background-image:
+    linear-gradient(90deg, var(--margin-red) 0px, var(--margin-red) 1px, transparent 1px),
+    linear-gradient(var(--line-blue) 1px, transparent 1px);
+  background-size: 100% 100%, 100% 2.5rem;
+  background-position: 50px 0, 0 0;
+  line-height: 2.5rem;
+}
+
+
+/* ----------------------------------------------------------------
+   5. DESKTOP LAYOUT (≥ 1200px)
+   Left sidebar hidden | Center ~60% | Right sidebar fixed 300px
+   ---------------------------------------------------------------- */
+@media (min-width: 1200px) {
   #quartz-body {
-    max-width: 1400px !important; /* Limits total width so it doesn't look crazy on ultrawides */
+    max-width: 1400px !important;
     margin: 0 auto;
     display: flex !important;
     flex-direction: row;
@@ -29,50 +99,102 @@
   }
 
   .sidebar.left {
-    display: none !important; 
+    display: none !important;
   }
 
   .center {
-    /* flex: grow | shrink | basis */
-    flex: 1 1 900px !important; /* Flex-grow is 1, so it takes all extra space */
-    max-width: 1000px;           /* Caps the paper width so it stays looking like a page */
-    background-color: white;
+    flex: 1 1 900px !important;
+    max-width: 1000px;
     padding: 60px 100px !important;
-    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-    border: 1px solid var(--line-blue);
-    
-    /* Notebook Paper Texture */
-    background-image: 
-      linear-gradient(90deg, var(--margin-red) 0px, var(--margin-red) 1px, transparent 1px), 
-      linear-gradient(var(--line-blue) 1px, transparent 1px);
-    background-size: 100% 100%, 100% 2.5rem;
-    background-position: 50px 0, 0 0;
-    line-height: 2.5rem;
   }
 
   .sidebar.right {
-    /* flex: grow | shrink | basis */
-    flex: 0 0 300px !important; /* Grow is 0, Basis is 300px. It will NOT expand. */
-    width: 300px !important;    /* Hard lock the width */
+    flex: 0 0 300px !important;
+    width: 300px !important;
     display: flex !important;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 1.5rem;
+    height: fit-content;
     position: sticky;
     top: 2rem;
-    padding: 1.5rem;
-    border: 1px solid #5c564f; 
-    border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
+    border: 1px solid #5c564f;
+    border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
   }
 }
 
 
+/* ----------------------------------------------------------------
+   6. TABLET / MEDIUM (800px – 1199px)
+   ---------------------------------------------------------------- */
+@media (min-width: 800px) and (max-width: 1199px) {
+  .center {
+    padding: 40px 60px !important;
+  }
+}
+
+
+/* ----------------------------------------------------------------
+   7. MOBILE (≤ 800px)
+   Full-width content, minimal padding
+   ---------------------------------------------------------------- */
+@media (max-width: 800px) {
+  #quartz-body {
+    display: flex !important;
+    flex-direction: column;
+  }
+
+  .center {
+    padding: 1.25rem 1rem !important;
+    margin: 0 0.5rem !important;
+    width: auto !important;
+    box-sizing: border-box;
+    /* Tighten the notebook lines on small screens */
+    background-position: 30px 0, 0 0;
+  }
+
+  article {
+    padding: 0.5rem 0 !important;
+  }
+
+  .page-header {
+    padding: 0.5rem 0 !important;
+  }
+
+  /* Right sidebar stacks below content on mobile */
+  .sidebar.right {
+    position: static !important;
+    width: auto !important;
+    margin: 1rem 0.5rem 0 !important;
+    padding: 1rem !important;
+    border: 1px solid #5c564f;
+    border-radius: 255px 15px 225px 15px / 15px 225px 15px 255px;
+  }
+}
+
+
+/* ----------------------------------------------------------------
+   8. RIGHT SIDEBAR — NAV LINKS
+   ---------------------------------------------------------------- */
 .right-nav-inline {
   list-style: none !important;
   padding: 0 !important;
   margin: 0 0 2rem 0 !important;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center; /* Changed from flex-start to center */
+  justify-content: center;
   align-items: center;
-  gap: 0.5rem; 
+  gap: 0.5rem;
+}
+
+/* Add a separator after the first item */
+.right-nav-inline li:first-child {
+  padding-bottom: 0.5rem;
+  margin-bottom: 0.5rem;
+  border-bottom: 1px dashed var(--line-blue);
+  width: 100%;
+  text-align: center;
+  justify-content: center;
 }
 
 .right-nav-inline li {
@@ -95,74 +217,21 @@
 }
 
 .nav-separator {
-  margin: 0 0.5rem; /* Balanced margins */
+  margin: 0 0.5rem;
   font-size: 0.8rem;
   opacity: 0.8;
 }
 
-/* 4. CONTENT & SIDEBAR WIDTHS */
-.center {
-  flex: 0 1 900px !important; /* Emphasized wider content */
-  max-width: 900px;
-  background-color: white;
-  padding: 60px 100px !important;
-  box-shadow: 0 10px 30px rgba(0,0,0,0.05);
-  border: 1px solid var(--line-blue);
-  z-index: 1;
-  
-  /* Notebook Paper Texture */
-  background-image: 
-    linear-gradient(90deg, var(--margin-red) 0px, var(--margin-red) 1px, transparent 1px), 
-    linear-gradient(var(--line-blue) 1px, transparent 1px);
-  background-size: 100% 100%, 100% 2.5rem;
-  background-position: 50px 0, 0 0;
-  line-height: 2.5rem;
+
+/* ----------------------------------------------------------------
+   9. COMPONENT TWEAKS
+   ---------------------------------------------------------------- */
+
+/* TOC header relabel */
+.toc-header h3 {
+  visibility: hidden;
+  height: 0;
 }
-
-.sidebar.right {
-  flex: 0 1 300px;
-  display: flex !important;
-  flex-direction: column;
-  gap: 2rem;
-  padding: 2rem;
-  height: fit-content;
-  top: 2rem;
-  position: sticky;
-  /* Pen Drawn Box */
-  border: 1px solid #5c564f; 
-  border-radius: 255px 15px 225px 15px/15px 225px 15px 255px;
-}
-
-/* 5. TYPOGRAPHY & LINKS */
-body {
-  background-color: var(--paper-color);
-  font-family: var(--font-body);
-  color: #5c564f; 
-}
-
-h1 {
-  font-family: var(--font-header) !important;
-  color: var(--ink-color);
-  font-size: 3.5rem;
-}
-
-/* Typewriter Subheaders */
-h2, h3, h4, .toc-header, .navigation {
-  font-family: var(--font-typewriter) !important;
-  letter-spacing: 1px;
-  font-size: 1.1rem;
-  color: #5c564f;
-}
-
-a {
-  font-family: var(--font-body); /* All links are Georgia */
-  color: var(--secondary);
-}
-
-/* 6. COMPONENT TWEAKS */
-
-/* Rename TOC */
-.toc-header h3 { visibility: hidden; height: 0; }
 .toc-header::before {
   content: "Contents";
   font-family: var(--font-typewriter);
@@ -170,16 +239,7 @@ a {
 }
 
 .toc-content li::before {
- content: "◉ ";
-}
-
-/* Sticky Note at Bottom */
-.sticky-note {
-  float: none;
-  margin: 4rem auto 0;
-  width: 350px;
-  position: relative;
-  transform: rotate(1deg);
+  content: "◉ ";
 }
 
 /* Breadcrumbs */
@@ -189,21 +249,7 @@ a {
   padding-top: 1rem;
 }
 
-/* 7. FOOTER & SEARCH */
-footer {
-  width: 100% !important;
-  margin-top: auto;
-  padding: 4rem 2rem;
-  text-align: center;
-  border-top: 1px solid var(--line-blue);
-  background-color: var(--paper-color);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 1.5rem;
-}
-
-/* Search styling in footer */
+/* Search */
 .search {
   margin-bottom: 1rem;
 }
@@ -215,28 +261,30 @@ footer {
   padding: 5px 15px;
 }
 
-/* sticky */
 
+/* ----------------------------------------------------------------
+   10. STICKY NOTE (afterBody component)
+   ---------------------------------------------------------------- */
 .sticky-note {
-  background: #fff176 !important; /* The classic Post-it yellow */
+  background: #fff176 !important;
   font-family: var(--font-sticky);
-  color: #1c1c1c !important; 
+  color: #1c1c1c !important;
   padding: 2rem 1.5rem 1.5rem 1.5rem;
   width: 300px;
-  margin: 4rem auto 2rem auto; /* Centered at the bottom of the page */
+  margin: 4rem auto 2rem auto;
   display: block;
   position: relative;
-  
-  /* The "Peeling" effect */
+
+  /* Slight tilt + peel effect */
   transform: rotate(-1.5deg);
-  box-shadow: 5px 5px 15px rgba(0,0,0,0.12);
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.12);
   border-bottom-right-radius: 60px 5px;
-  
-  /* Reset line height for handwriting */
+
   line-height: 1.3 !important;
   z-index: 10;
 }
 
+/* Tape strip across top */
 .sticky-note::before {
   content: "";
   position: absolute;
@@ -247,12 +295,49 @@ footer {
   height: 30px;
   background: rgba(255, 255, 255, 0.45);
   backdrop-filter: blur(1px);
-  box-shadow: 2px 2px 5px rgba(0,0,0,0.05);
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
   z-index: 11;
 }
 
-/* Ensure footer doesn't overlap it */
-footer {
+
+/* ----------------------------------------------------------------
+   11. FOOTER
+   Rendered outside #quartz-body (after renderPage.tsx fix),
+   so it sits cleanly below all columns on desktop + mobile.
+   ---------------------------------------------------------------- */
+.page > footer {
   clear: both;
-  margin-top: 6rem;
+  width: 100%;
+  margin-top: 3rem;
+  padding: 1.5rem 2rem;
+  border-top: 1px solid var(--line-blue);
+  background-color: var(--paper-color);
+
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1.5rem;
+
+  font-size: 0.85em;
+  color: #5c564f;
+  text-align: center;
+
+  p { margin: 0; }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .page > footer {
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 1rem;
+  }
 }

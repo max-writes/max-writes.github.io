@@ -2,6 +2,7 @@
 title: A Manifesto of Process and Presence
 draft: false
 tags: creativity, who-is-max
+date: 2025-12-30
 ---
 
 1. **I see expression media as narrative canvas.** I don’t just post online; I build experiences. To me, a website is a chance to make a living zine curated to create a journey, where the layout tells as much of the story as the text. Whether I’m coding a page or assembling paper into a booklet, my approach is narrative-driven: I am seeking to create a homebase that feels intimate and intentional. (Sometimes I am the audience.)

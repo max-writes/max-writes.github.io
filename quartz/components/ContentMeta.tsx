@@ -33,6 +33,10 @@ export default ((opts?: Partial<ContentMetaOptions>) => {
         segments.push(<Date date={getDate(cfg, fileData)!} locale={cfg.locale} />)
       }
 
+   //   if (fileData.dates?.modified) {
+ // segments.push(<span>updated <Date date={fileData.dates.modified} locale={cfg.locale} /></span>)
+//}
+
       // Display reading time if enabled
       if (options.showReadingTime) {
         const { minutes, words: _words } = readingTime(text)

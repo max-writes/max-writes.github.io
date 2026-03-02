@@ -2,6 +2,7 @@
 title: How Writing User Guides is Like Philosophy
 draft: false
 tags: writing, technical-writing
+date: 2025-10-28
 ---
 
 ## I. Introduction: The Unexpected Parallel

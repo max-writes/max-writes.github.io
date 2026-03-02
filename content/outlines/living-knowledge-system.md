@@ -2,6 +2,7 @@
 title: Building a Living Knowledge System for Technical Support Teams
 draft: false
 tags: knowledge, writing, technical-writing
+date: 2025-11-21
 ---
 
 ## I. Introduction: The Complexity of Support Knowledge

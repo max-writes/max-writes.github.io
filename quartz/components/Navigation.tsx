@@ -15,12 +15,14 @@ export default ((opts?: Options) => {
       <div className={`navigation ${displayClass ?? ""}`}>
         <ul className="right-nav-inline">
           {entries.map(([text, link], index) => (
-            <li key={text}>
-              <a href={resolveRelative(fileData.slug!, link as FullSlug)}>{text}</a>
-              {/* Add an emoji separator if it's not the last item */}
-              {index < entries.length - 1 && <span className="nav-separator">📜</span>}
-            </li>
-          ))}
+  <li key={text}>
+    <a href={resolveRelative(fileData.slug!, link as FullSlug)}>{text}</a>
+    {index === 0 
+      ? null  // no emoji after Home
+      : index < entries.length - 1 && <span className="nav-separator">📜</span>
+    }
+  </li>
+))}
         </ul>
       </div>
     )

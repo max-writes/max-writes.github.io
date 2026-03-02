@@ -2,6 +2,7 @@
 title: Tips for Recent Grads
 draft: false
 tags: lessons-learned
+date: 2025-11-21
 ---
 
 1. Rest is part of the process.

@@ -1,6 +1,7 @@
 ---
 title: horizons
 draft: false
+date: 2025-10-27
 ---
 
 relevant for exploring Antarctica and also living life:

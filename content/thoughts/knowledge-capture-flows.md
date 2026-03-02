@@ -2,6 +2,7 @@
 title: Knowledge Capture Flows
 draft: false
 tags: life-systems, knowledge
+date: 2025-10-12
 ---
 
 As this system evolves I want to capture how I am intaking knowledge. Also see [[journal-systems.md]]

@@ -2,6 +2,7 @@
 title: Learning in Public
 draft: false
 tags: learning
+date: 2025-10-27
 ---
 
 In reading about digital gardens and their philosophies, I keep seeing the "learn in public" approach come up, which is something I've been trying to do better with this site. (I am still learning to be consistent with it to get the most value.)

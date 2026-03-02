@@ -1,6 +1,8 @@
 import DefaultLayout from "./quartz/layouts/default"
 import { PageLayout, SharedLayout } from "./quartz/cfg"
 import * as Component from "./quartz/components"
+// import RecentlyModified from "./quartz/components/RecentlyModified"
+
 
 // components shared across all pages
 export const sharedPageComponents: SharedLayout = {
@@ -8,9 +10,10 @@ export const sharedPageComponents: SharedLayout = {
   header: [],
   afterBody: [],
   footer: Component.Footer({
+    
     links: {
       
-      "all content": "/all",
+      
     },
   }),
 }
@@ -21,6 +24,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.ArticleTitle(), // H1
     Component.ContentMeta(),
     Component.ContentList(),
+    Component.TagList(),
   ],
   left: [
 // empty 
@@ -28,12 +32,15 @@ export const defaultContentPageLayout: PageLayout = {
   right: [
     Component.Navigation({
       links: {
-        "Now": "/Now",
-        "About": "/tags/who-is-max",
-        "Home": "/",
+        "🏠 Home": "/",
+        "Now": "/now",
+        "Tags": "/tags",
+        "Pages" : "/all",
       }
     }),
     Component.RecentNotes({ title: "Recent Thoughts 🖋️", limit: 3 }),
+    //RecentlyModified({ title: "Recently Updated ✏️", limit: 3 }),
+
     Component.Graph(),
   ],
   afterBody: [
@@ -54,9 +61,10 @@ export const defaultListPageLayout: PageLayout = {
   right: [
     Component.Navigation({
       links: {
-        "Now": "/Now",
-        "About": "/tags/who-is-max",
-        "Home": "/",
+        "🏠 Home": "/",
+        "Now": "/now",
+        "Tags": "/tags",
+        "Pages": "/all",
       }
     }),
     Component.RecentNotes({ title: "Recent Thoughts 🖋️", limit: 6 }),

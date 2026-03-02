@@ -2,6 +2,7 @@
 title: Journal Systems
 draft: false
 tags: life-systems
+date: 2025-10-12
 ---
 
 I have always been a person to keep lots of different journals for many different purposes. I'm going to use this page to explore my written (analog) and digital journal systems over time and see if I can find any intersections or similarities in how I use them. Partially to reflect and understand and discover a thing about myself, but also because I think I can use that knowledge to better utilize Obsidian as a digital garden setup that works for me.

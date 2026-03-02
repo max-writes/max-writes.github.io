@@ -2,6 +2,7 @@
 title: mountain ranges
 draft: false
 tags: knowledge
+date: 2025-10-12
 ---
 
 I caught myself earlier sitting on the couch with my cat thinking about [[horizons.md|Antarctic]]  mountain ranges, something I knew basically nothing about before a few days ago. I've been reading Of Maps and Men, a book about Antarctica which I picked up in my journey to read more about the globe and continents that I don't know anything about, and the author talks about their journey through Antarctica with a group of scientists and explorers.

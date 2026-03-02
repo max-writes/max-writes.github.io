@@ -2,6 +2,7 @@
 title: Websites - Zines of the Digital Age
 draft: false
 tags: writing, zines, websites
+date: 2026-01-11
 ---
 
 ## I. Introduction: From Copy Machines to Code Editors

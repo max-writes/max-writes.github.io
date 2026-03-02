@@ -2,6 +2,7 @@
 title: 10 things that shape my perspective/reality
 draft: false
 tags: lessons-learned
+date: 2025-11-21
 ---
 
 1. All of this is random/chaos, so find purpose from within and allow it to change throughout life.

@@ -2,6 +2,7 @@
 title: What I've learned in my 10 years of writing for work
 draft: false
 tags: lessons-learned, writing, who-is-max
+date: 2025-11-21
 ---
 
 ## Documentation is like technology in how you bring it into use.
