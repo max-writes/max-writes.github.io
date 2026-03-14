@@ -7,9 +7,7 @@ date: 2025-10-12
 
 I have always been a person to keep lots of different journals for many different purposes. 
 
-I'm going to use this page to explore my written (analog) and digital journal systems over time and see if I can find any intersections or similarities in how I use them. I like to reflect and understand and discover things about myself.
-
-<span class="text yellow-mark">I'm also interested to see if I can use that knowledge to mindfully refine my digital garden setup.</span>
+I'm going to use this page to explore my written (analog) and digital journal systems over time and see if I can find any intersections or similarities in how I use them. I like to reflect and understand and discover things about myself. <span class="simple-highlight">I'm also interested to see if I can use that knowledge to mindfully refine my digital garden setup.</span>
 
 I think I've always kept a "garden" of sorts with my notes before I started getting online - and later, while online, expanding the "plants" and "flowers" to digital journals and places of expression, exploration, and knowledge-gathering. What it was missing was tags and links and paths to keep each other connected; it wasn't a garden, it was the wilderness.
 
@@ -17,7 +15,7 @@ This page will probably get big since I'm going to go through boxes of old journ
 
 However, in retrospect and from an archival perspective, a tiny bit annoying! In note-taking systems like Anytype, you don't have to date everything because it keeps a version history automatically. In journals I have to hope I have at least one entry that offers more than my deepest innermost thoughts and explains something I did where I can place a timestamp on it.
 
-<span class="text blue-mark">Getting started with some best guesses. I'll refine this page as I dive through the archives.</span>
+<span class="blue-highlight">Getting started with some best guesses. I'll refine this page as I dive through the archives.</span>
 
 ## <span class="sketch-highlight">Written Journals Timeline</span>
 
@@ -51,5 +49,7 @@ However, in retrospect and from an archival perspective, a tiny bit annoying! In
 ## <span class="border-highlight">Modification History</span>
 
 ### <span class="ribbon-highlight">2026</span>
+
+- **3/14:** Updated with highlighted styles to match the rest of the site styling. 
 
 - **3/11:** Reviewed and updated for currency. Updated with highlighted styles to experiment with the new options I put in the CSS today.

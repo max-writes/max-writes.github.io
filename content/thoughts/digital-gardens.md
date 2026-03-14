@@ -4,7 +4,7 @@ draft: false
 date: 2025-10-12
 ---
 
-What is a digital garden? In short, it's a website where someone shares knowledge in development. It's both a personal wiki and a blog, a place where one is wrong publicly and refines their ideas (and pages) over time.
+What is a digital garden? <span class="simple-highlight">In short, it's a website where someone shares thoughts in development.</span> It's both a personal wiki and a blog, a place where one is wrong publicly and refines their ideas (and pages) over time.
 
 It's a place of discovery where your interests take focus. You learn, write, rest, and then return to learn and write some more. Unlike most traditional "blogs," your entries might change as you grow in your understanding of the things you write about.
 You might think of it as your personal note-taking system that is slightly formalized for public view, though not written for a public audience explicitly. People have called it a "second brain" or "digital commonplace book."
@@ -25,7 +25,7 @@ My tools:
 ## <span class="sketch-highlight">Best Practices & Lessons Learned</span>
 I started this digital garden in December 2024 and I am very forgetful so there is much room to grow.
 
-<span class="ribbon-highlight">May 4, 2025</span>
+<h3 class="bj-header">May 4, 2025</h3>
 
 - **Be patient with how long it takes to flesh things out.** I had a lot of ideas at once and did a pretty good job at capturing what knowledge I'd like to capture, but it was a bit overwhelming to suddenly have all these pages to fill out fully. No pressure to get things done all at once. Let the thoughts percolate over time.
 

@@ -5,6 +5,8 @@ tags: creativity, who-is-max
 date: 2025-12-30
 ---
 
+When people would ask questions about what element I was, I would always get stuck between stone earth and the water flowing around it. The stone is presence: a quiet witness. The moving water is process: peacefully moving with purpose. It turns out I am both.
+
 1. **I see expression media as narrative canvas.** I don’t just post online; I build experiences. To me, a website is a chance to make a never-ending zine where the layout is as thoughtful as the text. Whether I’m coding a page or assembling paper into a booklet, my approach is often narrative-driven: I am seeking to create an artifact that feels intimate and intentional. (Sometimes I am the audience.)
 2. **The medium and rhythm influences the message.** I believe the pace of my sharing influences the depth of the connection I feel. While social media demands instant, disposable noise, I prioritize slower online options. To me, the medium and the tempo matter as much as the thing being shared; true reflection requires a slower frequency. 
 3. **I embrace the "Frankensthetic."** I have a deep love for the DIY aesthetic, the "Franken-thing" approach where bits of media are stitched together. Think of it like a lifestyle approach adopting elements from mixed media art. I embrace faults, visible seams, and creative messiness. Perfection is great, but there is a vibrant, kinetic energy in tension. 

@@ -16,4 +16,14 @@ date: 2025-11-21
 9. Keep a growth mindset to learning how to be a person in this world.
 10. The stories you don't tell consume you. Share your thoughts.
 
-This note originally began as a Daily Note (5/19/25) during the 100 Days Project (100 days of writing).
+---
+
+<span class="pink-highlight">This note originally began as a Daily Note (5/19/25) during the 100 Days Project (100 days of writing).</span>
+
+---
+
+## <span class="border-highlight">Modification History</span>
+
+### <span class="ribbon-highlight">2026</span>
+
+- **3/14:** Updated with highlighted styles to match the rest of the site styling.
