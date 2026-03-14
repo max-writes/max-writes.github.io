@@ -9,7 +9,7 @@ date: 2026-02-21
 
 <span class="simple-highlight">Hello! I am Max and this is where I write about the things I'm interested in.</span> I am a creative soul, writer, philosopher, and designer. A digital gardener, zine-maker, and chronicler of small moments. My life is [a manifesto of process and presence](slightly-polished/manifesto-of-process-and-presence.md). 
 
-Review my [Now](now.md) page to see what I'm up to lately.
+Review my [Now](Now.md) page to see what I'm up to lately.
 
 ## <span class="sketch-highlight">Purpose</span>
 
