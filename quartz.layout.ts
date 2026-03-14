@@ -33,7 +33,7 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Navigation({
       links: {
         "🏠 Home": "/",
-        "Now": "/now",
+        "Now": "/Now",
         "Tags": "/tags",
         "Pages" : "/all",
       }
@@ -62,7 +62,7 @@ export const defaultListPageLayout: PageLayout = {
     Component.Navigation({
       links: {
         "🏠 Home": "/",
-        "Now": "/now",
+        "Now": "/Now",
         "Tags": "/tags",
         "Pages": "/all",
       }
