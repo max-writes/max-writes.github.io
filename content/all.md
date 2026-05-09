@@ -9,7 +9,7 @@ specialList: true
 
 ### <span class="ribbon-highlight">2026</span>
 
-- **5/9:** Added **Why I Keep a Digital Garden and Wiki**, **Reading Habits Reflection**, indexes for the folders that include descriptions of what you'll find there, new folder for "system" files related to the setup and usage of my various tools (basically, my personal knowledge center). Attempting to pull a random quote from my <a href="https://maxwrites.com/quotes" target="_blank">Quotes site</a> onto these pages, we'll see how it goes because it didn't load in localhost. (Figured out the issue: Had to add an .htaccess file to allow this behavior.)
+- **5/9:** Added **Why I Keep a Digital Garden and Wiki**, **Reading Habits Reflection**, indexes for the folders that include descriptions of what you'll find there, new folder for "system" files related to the setup and usage of my various tools (basically, my personal knowledge center). Attempting to pull a random quote from my <a href="https://maxwrites.com/quotes" target="_blank">Quotes site</a> onto these pages, we'll see how it goes because it didn't load in localhost. (Figured out the issue: Had to add an .htaccess file to allow this behavior.) (Maybe it works? Seems finicky.)
 
 - **3/14:** Added a timeline style option for myself, adapted paper layout code into graph paper which you can see on [[thoughts/zines.md]]. Also updated the main pag heading font to a handwriting style that isn't cursive. It was nice on short titles but looked messy on longer ones, I didn't like it. One of the highlight styles messed up the layout, so I removed it. Reviewed a few more pages for currency and style updates; did some trial & error CSS with the links/quotes and didn't like it so I removed it.
 
