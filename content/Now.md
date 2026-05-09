@@ -23,6 +23,22 @@ Sup?
 
 -->
 
+## <span class="sketch-highlight">May 9, 2026</span>
+It's been a while! I've been working on lots of other projects and things around my digital garden - Although I call this my "digital garden" it's actually a bunch of internet plots that come together into my digital landscape.
+
+<span class="simple-highlight">What I've been doing with websites:</span>
+- I've been working on the <a href="https://maxwrites.com/wiki" target="_blank">Wiki</a> I mentioned last entry as well as my <a href="https://maxwrites.com/quotes" target="_blank">Quotes</a> page. I am trying to figure out how to use the quotes JS from that site to load a random quote on this one, but still learning all this JavaScript stuff.
+- I've been building a docs site as well where I can place my non-proprietary "portfolio" type of documents. I am not looking for a job, but I know from past experience how much work it is building a portfolio from scratch when you need it, so I'm interested in having that already available if I ever need it. Lots of organizational change is happening at my place of work and you never know what will happen.
+
+<span class="simple-highlight">What's going on creatively:</span>
+- In September I'll be reaching the due date of my "101 things in 1,001 days" project. One of the items is to fill out a bunch of wiki pages (10 weeks in a row, focusing on 1-2 different topics each week), and another one is to write the first draft of my personal writing manual and style guide. It's nice to have writing projects on deck.
+- I am trying to doodle my photos more often. I am not very good at remembering to do it, but once I do I can sit and spend a good 6-8 hours on a detailed doodle of something I saw on a walk. I recommend it for those who desire a "slower life" -- it's a very nice way to meditate on something you did or saw.
+
+<span class="simple-highlight">What's going on at work:</span>
+- I have been spending much of this quarter working on building the knowledge base for a handful of AI agents. The more I learn about how to organize knowledge for AI and ensuring it can make the connections needed to help the people using it, the more I feel incredibly secure in my future career (whether it's here or somewhere else). What I'm doing could easily earn me triple digits in this "new AI landscape" if I had ambition or wanted to be an organizational leader. (I prefer to do supportive things for small teams instead.) What's more... I love it. Even though it's a "side project that I do when I have time," because no one is actually prioritizing the work involved in using AI at work, it's very fun.
+- Many transitions are upcoming in the next 3 months or so. We've all known it was coming, but now it's almost here! People are getting a little antsy and we're not sure what to expect, so it's been a weird mood all around.
+
+
 ## <span class="sketch-highlight">March 14, 2026</span>
 I'm pretty excited about how this site is shaping out. I have been working on adding highlighting and fun paper-like stylings and going through updating the pages with the new options. There are many pages to review for currency, but I'll be going through those much slower. It's fun to get back into this and be more engaged on some coding level. I know you can do custom CSS with Obsidian but it wasn't hitting the spot.
 
