@@ -35,6 +35,28 @@ I started this digital garden in December 2024 and I am very forgetful so there 
 
 - **I am learning how to be okay with being or appearing wrong online, either due to lack of knowledge or outdated information.** If you're a comment person, it's hard to do this because people get very angry when you're wrong.
 
+<h3 class="bj-header">June 14, 2026</h3>
+
+- **Building a content strategy is difficult with no content.** Especially just as you're starting, if you don't know what you want to do with it but you know you want to do it, it's difficult to find "the perfect" way to organize or time to engage. The first year or two felt futile and weird until I got my flow going. First I tried to do it every day, then I tried to go in sprints or build time constraints (10 weeks, 3 months, every other weekend). I explored different tools (Obsidian, Anytype, Quartz/Github). I was doing all this with bare minimum content and not much understanding of how the categories might grow. You can only anticipate and guess your future needs so much, which is why the next bullet is important to keep in mind.
+
+- **Start it bare bones, then iterate.** Don't approach one method as your forever method; your approach will grow and evolve just how you will. You have to get started to get anywhere, though. For the first year and a half, I changed up the flow every 6-8 months to find a good foundational process that fit in my life, pacing, and information collection styles. Each increment built on the last. It appears to change less over time, but rather focus on improving in incremental ways. I think once you find a flow that fits into your learning and life flows, there will be less huge changes unless your life has huge changes that impact those parts of it.
+
+- **Keep track of your processes.** Document what you're doing and how, and update that document as it changes. The act of documentation will help you notice gaps and think of the approach more structurally. Keeping it updated will help you pick up where you left off if there's a gap in use (life happens, digital gardens can be revived at any time).
+
+- **Notes are the baseline of a digital garden or PKM.** If you don't take notes, hopefully you have an impeccable memory. Don't think of your PKM or garden as "a platform that will help me organize my thoughts and files." It's more like a system of processes and flows. The platform/software helps keep the files organized, but rarely dictates how or what to organize. That is what you're figuring out in the first year or two. Note everything you find interesting or that you want to include, but don't pressure yourself to "include every note" or "do something" with every note. Sometimes they are just a note, just a seed. It doesn't mean it has to grow into more. Part of what makes digital gardens interesting to explore is the variations in styles, depth, voice - all pieces of your collection.
+
+- **This is a slow hobby.** There are few quick wins unless you're constantly engaging. However, most wins will arrive over time and in connecting with other thoughts that arrive over time.
+
+- **You can do it privately.** It doesn't have to be public. Or it can only partially be public. Any part that is public will "feel" different because it's been written through the lens of having a reader outside of yourself. That's pretty cool, notice it. 
+
+- **Do what you need, not what someone else needed.** You can read what others have done for their needs, and definitely experiment with customizing ready-made ideas, but ultimately the system will only work best for you if you cater to your needs. Even if someone's use cases and purpose seem similar to yours, it's probably rare that two people have the exact same requirements and contexts. Remember, it's not just a software: It's a system of thoughts, ideas, and threads that you're working into the flows of your thinking, learning, and creative processes. For example: My garden/PKMS requires no less than 9 apps/tools to manage, but they all serve a purpose. Don't let anyone tell you minimalism is better if it's not better for you. Do what you need to do to keep track of the stuff you want to track. Part of why I have so many is that I choose simple tools over complex ones, so they tend to only track 1 thing at a time using the exact specifications I need (vs general specs to cover many things).
+
+- **Prune the garden so your ideas can grow.** This can mean removing dead ideas (archiving), or perhaps decluttering and reformatting. You'll certainly spend some time clarifying statements, sorting, and tagging.
+
+- **Find gardening memes.** Read jokes about slow growth and waiting for results. It helps you remember that the same is true for digital gardening. 
+
+- **Be messy!** Let yourself be messy with it! Like nature, your digital garden will be imperfect, and that's okay.
+
 ## <span class="sketch-highlight">Links</a>
 
 <a href="https://github.com/swyxio/digital-garden-tos" target="_blank">Digital Garden Terms of Service</a>
@@ -59,5 +81,7 @@ I started this digital garden in December 2024 and I am very forgetful so there 
 ## <span class="border-highlight">Modification History</span>
 
 ### <span class="ribbon-highlight">2026</span>
+
+- **6/14:** Updated with more lessons learned I recently drafted.
 
 - **3/11:** Reviewed and updated for currency. Updated with highlighted styles to experiment with the new options I put in the CSS today.
