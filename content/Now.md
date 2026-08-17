@@ -23,6 +23,21 @@ Sup?
 
 -->
 
+## <span class="sketch-highlight">August 17, 2026</span>
+Wow it's been a long time since I last updated! I have been focused on filling out my <a href="https://maxwrites.com/wiki" target="_blank">Wiki</a> and establishing flows for that. It takes about 8 hours to read and research, draft and finalize a wiki page, so reasonably I did very little else during that time. DEFINITELY more effort that creating and updating pages for this garden site!
+
+<span class="simple-highlight">What I've been doing with websites:</span>
+- Keeping the lights on for most of my sites while I battle summer heat blues and busyness. 
+- I have been making <a href="https://frankenweb.neocities.org/webzines" target="_blank">webzines</a> a lot lately with more to come! In my digital zine era.
+
+<span class="simple-highlight">What's going on creatively:</span>
+- Winter & Spring this year were highly creative but Summer, not as much. I finally finished my Spring zines (late). I am mostly on the "creative thought" train right now, not doing as much "making stuff."
+- I have actually had TONS of ideas for this Digital Garden site while working on other things. It's funny how I built this thinking it'd be where I put all my time, but it actually has ended up being the 'junk drawer' of my overall system. I am putting user manuals here along with the scraps of brain fluids I find thinking about things here and there, but placing the output of my creative drive on blogs and other sites. I really like how my full system has fallen into place.
+
+<span class="simple-highlight">What's going on at work:</span>
+- I am on a 2-week vacation for my birthday so RIGHT NOW ABSOLUTELY NOTHING, THANK YOU, I DO NOT WANT TO THINK ABOUT IT.
+
+
 ## <span class="sketch-highlight">June 14, 2026</span>
 I haven't touched this very consistently in a while because I am focusing on figuring out the types of stuff I want to put in <a href="https://maxwrites.com/wiki" target="_blank">my new wiki</a>, how to format it, how it flows from my life, etc. I put myself on a 10-weekend challenge to fill out pages and I am doing pretty well!
 
@@ -30,10 +45,10 @@ I did not do much work with the aforementioned docs site, I got some intense imp
 
 <span class="simple-highlight">What I've been doing with websites:</span>
 - Other than building out the wiki processes, not much. I've been thinking of this site and where it fits in everything and I've had lots of ideas on how to expand my garden and get the ideas growing. In some ways, I'm doing that process in Anytype right now, but I'd like it to be more visible and strictly part of the learning workflow. First, I need to figure out what the learning workflow is! I feel like this is a tool I now "have at my disposal" but I don't quite need it at this point in figuring out everything.
-- I have been keeping up with my <a href="https://season.bearblog.dev" target="_blank">Seasons blog</a> pretty well. Even though we are in the worst part of the year (hot) I am finding ways to keep in touch with the seasons. The blog gives me a place to do that tangibly and share that experience but also motivates me to remember to do it!
+- I have been keeping up with my <a href="https://seasons.bearblog.dev" target="_blank">Seasons blog</a> pretty well. Even though we are in the worst part of the year (hot) I am finding ways to keep in touch with the seasons. The blog gives me a place to do that tangibly and share that experience but also motivates me to remember to do it!
 
 <span class="simple-highlight">What's going on creatively:</span>
-- Since I last updated this page I finished a few full-page photo-doodles in my sketchbook. I let myself take my time with them and two of them I recorded to share the process, which was fun. (It was also illuminating that I don't have the right tools or setup to easily record things like that.) You can watch them at "<a href="https://makertube.net/w/8AYvxT226qBFgeHUdMouie" target="_blank">Doodle a tree with me</a>" and "<a href="https://makertube.net/w/5zkhWWGrVMBNtuj6mATphE" target="_blank">Green Spring Gardens Doodle</a>.
+- Since I last updated this page I finished a few full-page photo-doodles in my sketchbook. I let myself take my time with them and two of them I recorded to share the process, which was fun. (It was also illuminating that I don't have the right tools or setup to easily record things like that.) You can watch them at <a href="https://makertube.net/w/8AYvxT226qBFgeHUdMouie" target="_blank">Doodle a tree with me</a> and <a href="https://makertube.net/w/5zkhWWGrVMBNtuj6mATphE" target="_blank">Green Spring Gardens Doodle</a>.
 - I've been moving my wall art and photos around as I refresh home via cleaning and organizing different spots all around. It's not that I hated the previous setup or that it got stale, but sometimes I have this burst of energy to freshen up the environment and get a different perspective. For example, my <a href="https://www.are.na/block/46965748" target="_blank">office art</a> moved to a different wall and found a different arrangement (and now I have a space for another print) so I can put a cat hammock on the wall where it was, and Zenny can sit right next to me while I'm at work if she wants.
 
 <span class="simple-highlight">What's going on at work:</span>

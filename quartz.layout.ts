@@ -38,8 +38,8 @@ export const defaultContentPageLayout: PageLayout = {
         "Pages" : "/all",
       }
     }),
-    Component.RecentNotes({ title: "Recent Thoughts 🖋️", limit: 3 }),
-    //RecentlyModified({ title: "Recently Updated ✏️", limit: 3 }),
+    Component.RecentNotes({ title: "Recent Thoughts 🖋️", limit: 5 }),
+    //RecentlyModified({ title: "Recently Updated ✏️", limit: 5 }),
 
     Component.Graph(),
   ],

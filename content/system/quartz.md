@@ -1,10 +1,11 @@
 ---
-title: Quartz
+title: Digital Garden - Quartz
 draft: true
+tags: websites
 date: 2026-03-15
 ---
 
-About Quartz
+## About Quartz
 * Past digital garden tools/how I got here
 * Why Quartz works best for me
 

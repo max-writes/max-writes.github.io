@@ -16,6 +16,7 @@ Added page - add here
 Updated page - add to each page w/details and here (page name only) - don't list Now page updates
 Updated site - add here
 -->
+- **8/17:** Added the **System** folder with **are.na**, **bearblog**, and **peertube**. I have more tools to add but this time focused on some of the ones I use to publish online. 
 
 - **6/14:** Updated **Digital Gardens**. I gave up on the random quote thing. 
 
